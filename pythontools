@@ -1,0 +1,11 @@
+# import libraries
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib
+
+%matplotlib inline
+
+matplotlib.style.use('ggplot')
